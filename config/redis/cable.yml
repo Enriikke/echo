@@ -1,0 +1,10 @@
+local: &local
+  url: redis://192.168.99.100:6379
+  timeout: 1
+  inline: true
+development: *local
+test: *local
+production: &production
+  url: <%= ENV["REDIS_URL"] %>
+  inline: true
+  timeout: 1
