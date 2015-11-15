@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # ActionCable
   config.middleware.use ActionCableMiddleware
-  config.web_socket_server_url = "ws://echo-game.herokuapp.com"
+  config.web_socket_server_url = "wss://echo-game.herokuapp.com"
 end
