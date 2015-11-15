@@ -1,3 +1,5 @@
+require "faye/websocket"
+
 class ActionCableMiddleware
   def initialize(app, options={})
     @app = app
