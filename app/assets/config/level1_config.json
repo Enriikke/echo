@@ -1,0 +1,17 @@
+{
+    "assets": {
+        "land_titles": { "type": "image", "source": "images/land/LandTiles_32_32.png" },
+        "level_tiles": { "type": "image", "source": "images/land/LevelObjectTiles.png" },
+        "level_map": { "type": "tilemap", "source": "maps/level1.json" }
+    },
+    "groups": [
+        "enemies",
+        "goals",
+        "players"
+    ],
+    "map": {
+        "key": "level_map",
+        "tileset0": "land_tiles",
+        "tileset1": "level_tiles"
+    }
+}
