@@ -1,0 +1,46 @@
+<%= javascript_include_tag "games" %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="echo"></div>
+    </div>
+
+    <div class="col-md-6">
+      <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <button onclick="runCode()">Run!</button>
+    </div>
+  </div>
+</div>
+
+<xml id="toolbox" style="display: none">
+  <block type="echo_walk"></block>
+  <block type="echo_jump"></block>
+  <block type="echo_turn">
+    <field name="turn">right</field>
+  </block>
+  <block type="echo_turn">
+    <field name="turn">left</field>
+  </block>
+</xml>
+
+<script>
+  var workspace = Blockly.inject('blocklyDiv',
+      {toolbox: document.getElementById('toolbox')});
+
+  function runCode() {
+    var code = Blockly.JavaScript.workspaceToCode(workspace);
+
+    try {
+      eval(code);
+    } catch (e) {
+      alert(e);
+    }
+  }
+</script>
+

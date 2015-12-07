@@ -33,6 +33,7 @@ module Echo
     config.active_record.raise_in_transactional_callbacks = true
 
     # ActionCable
-    config.web_socket_server_url = "ws://127.0.0.1:28080"
+    # config.middleware.use ActionCableMiddleware
+    # config.web_socket_server_url = "wss://echo-game.herokuapp.com"
   end
 end

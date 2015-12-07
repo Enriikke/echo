@@ -13,5 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require ./games/blockly/blockly_compressed
+//= require ./games/blockly/blocks_compressed
+//= require ./games/blockly/msg/js/en
+//= require ./games/blockly/javascript_compressed
+//= require ./games/blockly/echo_blocks
+//= require ./games/phaser/phaser.min
 //= require_tree ./channels

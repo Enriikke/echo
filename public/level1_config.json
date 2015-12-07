@@ -4,7 +4,8 @@
         "player_spritesheet": { "type": "spritesheet", "source": "images/spritesheets/player_spritesheet.png", "frame_width": 32, "frame_height": 32, "frames": 14, "margin": 0, "spacing": 0 },
         "LevelObjectTiles": { "type": "image", "source": "images/land/LevelObjectTiles.png" },
         "level_map": { "type": "tilemap", "source": "maps/level1.json" },
-        "pixel_adventures_audio": { "type": "audio", "source": ["audio/pixel_adventures.ogg", "audio/pixel_adventures.mp3"] }
+        "pixel_adventures_audio": { "type": "audio", "source": ["audio/pixel_adventures.ogg", "audio/pixel_adventures.mp3"] },
+        "sfx_jump": { "type": "audio", "source": ["audio/sfx_jump.ogg", "audio/sfx_jump.mp3"] }
     },
     "groups": [
         "enemies",

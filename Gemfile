@@ -17,6 +17,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production
 
+gem 'devise'
+
 group :development, :test do
   gem 'pry-byebug'
 end
