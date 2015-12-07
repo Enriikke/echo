@@ -31,8 +31,8 @@ Echo.GameState.prototype.init = function (level_data) {
     // this.music.play();
     // this.music.loopFull();
 
-    this.mute_controller = this.game.input.keyboard.addKey(Phaser.Keyboard.M);
-    this.mute_controller.onDown.add(this.toggleMute, this);
+    // this.mute_controller = this.game.input.keyboard.addKey(Phaser.Keyboard.M);
+    // this.mute_controller.onDown.add(this.toggleMute, this);
 };
 
 Echo.GameState.prototype.create = function () {
