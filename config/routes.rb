@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get "play", to: "games#show"
   resource :user, only: :show
+
+  resources :groups, only: [:show, :create]
 end

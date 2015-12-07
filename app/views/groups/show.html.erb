@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Group: <%= @group.token %></h2>
+      <h3>URL: <a href="<%=  url_for(controller: :games, action: :show, group: @group.token.to_s) %>"><%=  url_for(controller: :games, action: :show, group: @group.token.to_s) %></a></h3>
+      <div id="sessions-<%= @group.id %>"></div>
+    </div>
+  </div>
+</div>

@@ -4,4 +4,17 @@
       <h2>Hello <%= current_user.email %></h2>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <%= form_for :group, url: groups_path do |f| %>
+        <%= f.submit "Create New Group" %>
+      <% end %>
+    </div>
+    <div class="col-md-12">
+      <% current_user.groups.each do |group| %>
+        <div><%= link_to "Group: #{group.id}", group_path(group) %></div>
+      <% end %>
+    </div>
+  </div>
 </div>
