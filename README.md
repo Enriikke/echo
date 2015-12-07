@@ -23,8 +23,12 @@ work has made Echo possible.
 * marcelofg55 (Marcelo Fernandez): [Pixel Adventures][pixeladventures], the main
   game soundtrack. [OpenGameArt profile][marcelofg55].
 
+* npauzenga (Nate Pauzenga): game and character SFX. [Github
+  profile][npauzenga].
+
 
 [cuteplatformersisters]: http://opengameart.org/content/cute-platformer-sisters
 [pixeladventures]: http://opengameart.org/content/pixel-adventures
 [master484]: http://opengameart.org/users/master484
 [marcelofg55]: http://opengameart.org/users/marcelofg55
+[npauzenga]: https://github.com/npauzenga
